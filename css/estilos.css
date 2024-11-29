@@ -1,0 +1,36 @@
+.container {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+p:before{
+    content: attr(type); 
+    display: block; 
+}
+.container-profesor{
+    border: 2px solid red;
+    padding: 40px;
+    box-shadow: 10px 20px 3cqb 10px rgb(71, 6, 63);
+    font-size: 20px;
+
+}
+#json-input {
+    padding-bottom: 50px;
+}
+button {
+    background-color: rgb(57, 212, 57);
+    font-size: 20px;
+    border-radius: 15px;
+}
+.container-boton1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-boton2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
